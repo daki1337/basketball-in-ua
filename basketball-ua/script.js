@@ -7,7 +7,7 @@ fetch('clubs.json')
       const link = document.createElement('a');
       link.href = club.link;
       link.textContent = club.name;
-      link.target = '_blank'; // Открывать в новом окне
+      link.target = '_blank'; 
       listItem.appendChild(link);
       clubList.appendChild(listItem);
     });

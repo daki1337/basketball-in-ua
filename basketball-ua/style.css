@@ -1,53 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  #history {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  #clubs {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  #club-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #club-list li {
-    padding: 10px;
-    background-color: #e7e7e7;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
+  font-family: 'Segoe UI', Arial, sans-serif; 
+  background-color: #f9f9f9; 
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+header {
+  background-color: #004b87; 
+  color: white;
+  padding: 20px; 
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em; 
+}
+
+#history, #clubs {
+  padding: 20px;
+  background-color: #ffffff; 
+  margin: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#club-list {
+  list-style-type: none; 
+  padding: 0;
+}
+#club-list li {
+  padding: 15px; 
+  background-color: #e0f7fa; 
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+  text-align: center; 
+}
+
+#club-list li a {
+  font-weight: bold; 
+  color: #333; 
+  text-decoration: none; 
+}
+
+#club-list li a:hover {
+  color: #333; 
+  background-color: #b2ebf2; 
+}
+
+
+
+
+footer {
+  background-color: #004b87; 
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+}
